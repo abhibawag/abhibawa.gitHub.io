@@ -1,0 +1,125 @@
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("planner.jpg");
+	background-size: cover;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+}
+
+#second {
+	color: #000;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+
+}
+
+#third {
+	color: #000;
+	margin-bottom: 30px;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+}
+
+
+#enter {
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #04A1BF;
+	background-color: #025F70;
+	transition: all 0.5s;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #02798F;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	margin-top: 10px;
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 7px;
+	border: dashed;
+}
+
+
+.done {
+	background: #51DF70 !important;
+	color: #fff;
+}
+
+.delete {
+	display: none;
+}
+
+
+	
